@@ -63,13 +63,8 @@ body <- dashboardBody(tags$head(
 ),
 tabItems(main_tab))
 
-footer <- dashboardFooter(
-    left_text = tags$a("Ben Kates @ CompassRed", href = "https://www.compassred.com")
-)
-
 ui <- dashboardPagePlus(header,
                         sidebar,
                         body,
-                        footer = footer,
                         useShinyjs()
 )
