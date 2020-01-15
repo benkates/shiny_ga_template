@@ -1,14 +1,17 @@
 #load libraries
-library(shiny)
-library(shinydashboard)
-library(shinydashboardPlus)
-library(scales)
-library(shinyjs)
-library(googleAnalyticsR)
-library(googleAuthR)
-library(data.table)
-library(fontawesome)
-library(tidyverse)
+if (!require(pacman)) install.packages('pacman')
+pacman::p_load(
+  shiny,
+  shinydashboard,
+  shinydashboardPlus,
+  scales,
+  shinyjs,
+  googleAnalyticsR,
+  googleAuthR,
+  data.table,
+  fontawesome,
+  tidyverse
+)
 
 #set Google Client ID/Secret
 options(googleAuthR.webapp.client_id = "YOUR_CLIENT_ID")
