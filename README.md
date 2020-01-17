@@ -6,7 +6,4 @@ In order to run, make the following changes:
 
 - `global.R`:  create/set your own client ID/secret from GCP
 
--------------
-
-### Example of what's possible in a Shiny GA app:
-![Example of what's possible](https://i.imgur.com/i0VKpur.png)
+![Template app in repo](https://i.imgur.com/D9lWMGv.png)
