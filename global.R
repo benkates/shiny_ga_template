@@ -14,13 +14,7 @@ pacman::p_load(
   tidyverse
 )
 
-#set Google Client ID/Secret
-options(googleAuthR.webapp.client_id = "YOUR_CLIENT_ID")
-options(googleAuthR.webapp.client_secret = "YOUR_CLIENT_SECRET")
-
-options(googleAuthR.client_id = "YOUR_CLIENT_ID")
-options(googleAuthR.client_secret = "YOUR_CLIENT_SECRET")
-
+#set client ID + secret
 gar_set_client(
   web_json = "client-web-id.json",
   scopes = c(
