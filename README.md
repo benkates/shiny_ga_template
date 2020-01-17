@@ -5,3 +5,6 @@ This repo is part of a post detailing how to create a custom Google Analytics Sh
 In order to run, make the following changes:
 
 - `global.R`:  create/set your own client ID/secret from GCP
+
+Example of what's possible in a Shiny GA app
+![Example of what's possible](blob:https://imgur.com/6cb1213a-defe-482c-a16a-eb2ad41f6ee2)
