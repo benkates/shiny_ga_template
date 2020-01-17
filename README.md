@@ -8,5 +8,5 @@ In order to run, make the following changes:
 
 -------------
 
-Example of what's possible in a Shiny GA app
+### Example of what's possible in a Shiny GA app:
 ![Example of what's possible](https://i.imgur.com/i0VKpur.png)
